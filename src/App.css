@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blue-card {
+  border: 1px solid;
+  margin: auto;
+  position: relative;
+  width: 600px;
+  height: 378px;
+  border-radius: 24px;
+  background-color: #3498db;
+  color: #fff;
+  padding-left: 40px;
+  top: 120px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.bank-name {
+  margin-bottom: 3px;
+  font-size: 36px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.card-number {
+  display: flex;
+  justify-content: center;
+  bottom: 160px;
+  font-size: 46px;
+  margin: 9px;
+}
+.person-name {
+  font-size: 30px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+}
+.user-info label {
+  font-size: 25px;
+  margin: 20px;
+}
+.user-info input {
+  border-radius: 10px;
+  width: 170px;
+  height: 45px;
+}
+.expiration {
+  display: flex;
+  justify-content: flex-end;
+  margin: 33px;
+}
